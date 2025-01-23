@@ -1,0 +1,11 @@
+*.env*
+/node_modules
+/package-lock.json
+/Redis
+/src_backup
+/temp
+/uploads
+/logs
+*.dll*
+*.exe
+views/admin/goaccess.html

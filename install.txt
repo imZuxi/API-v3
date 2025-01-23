@@ -1,0 +1,1 @@
+npm install express path body-parser request-ip cors mysql2 bcryptjs discord.js nodemailer ejs node-fetch multer @aws-sdk/client-s3 sharp 

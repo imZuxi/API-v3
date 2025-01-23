@@ -1,0 +1,43 @@
+{
+  "name": "api-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/api.js",
+  "scripts": {
+    "localserver": "ngrok http 81",
+    "dev": " nodemon .",
+    "ts": "npx nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.425.0",
+    "axios": "^1.5.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.1",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.5",
+    "path": "^0.12.7",
+    "redis": "^4.6.12",
+    "request-ip": "^3.3.0",
+    "sharp": "^0.32.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.8.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
